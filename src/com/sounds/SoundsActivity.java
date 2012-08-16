@@ -31,7 +31,7 @@ public class SoundsActivity extends Activity {
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 final TextView txtNombre=(TextView) findViewById(R.id.textView1);
-                txtNombre.setText("A dog");
+                txtNombre.setText("A dog!");
                 snd.play(perro);
             }
         });
@@ -39,7 +39,7 @@ public class SoundsActivity extends Activity {
         button2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 final TextView txtNombre=(TextView) findViewById(R.id.textView1);
-                txtNombre.setText("A bird");
+                txtNombre.setText("A bird!");
                 snd.play(pajaro);
             }
         });
@@ -47,7 +47,7 @@ public class SoundsActivity extends Activity {
         button3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 final TextView txtNombre=(TextView) findViewById(R.id.textView1);
-                txtNombre.setText("A cow !!!!");
+                txtNombre.setText("A cow!");
                 snd.play(vaca);
             }
         });
