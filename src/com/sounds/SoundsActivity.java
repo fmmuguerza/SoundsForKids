@@ -47,7 +47,7 @@ public class SoundsActivity extends Activity {
         button3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 final TextView txtNombre=(TextView) findViewById(R.id.textView1);
-                txtNombre.setText("A cow");
+                txtNombre.setText("A cow !!!!");
                 snd.play(vaca);
             }
         });
