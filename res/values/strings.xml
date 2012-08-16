@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">Sounds for Kids</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_sounds">Sound for Kids</string>
+    <string name="dog">dog</string>
+    <string name="bird">bird</string>
+    <string name="cow">cow</string>
+
+</resources>
